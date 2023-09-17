@@ -1,0 +1,22 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+    <input type = "text"; size="40"; id="emailorno"; placeholder="enter email or no"><br><br>
+    <input type = "text"; size= "40";  id="password"; placeholder="password"><br><br>
+    <button onclick="login()">login</button>
+
+    <script>
+      function login() {
+         var emailorno = document.getElementById("emailorno").value;
+        var password = document.getElementById("password").value;
+
+        (emailorno === "hemanth21@gmail.com" || emailorno === "123456789") && password === "hemu" ? alert("login success") : alert("login fail");
+
+
+      }
+     
+    </script>
+  </body>
+</html>
